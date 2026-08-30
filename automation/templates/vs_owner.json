@@ -1,0 +1,89 @@
+[
+  {
+    "title": "When you're eating and cat stares",
+    "scene": "owner eating at table, cat sitting on table staring",
+    "dialogue": [
+      {"character": "owner", "text": "Just trying to eat my lunch in peace..."},
+      {"character": "luna", "text": "What are you eating? Is that for me?"},
+      {"character": "owner", "text": "No, this is my food."},
+      {"character": "luna", "text": "But I'm staring at you. That means it's mine now."},
+      {"character": "mochi", "text": "Zzz... wake me when there's tuna..."},
+      {"character": "luna", "text": "I'm going to knock this plate off the table now."},
+      {"character": "owner", "text": "Don't you dare!"},
+      {"character": "luna", "text": "Too late. *CLANG*"}
+    ]
+  },
+  {
+    "title": "When you close the door, cat opens it",
+    "scene": "owner closes door, cat pulls it open",
+    "dialogue": [
+      {"character": "owner", "text": "Finally, five minutes of privacy..."},
+      {"character": "luna", "text": "*opens door* What are you doing in here?"},
+      {"character": "owner", "text": "Close the door!"},
+      {"character": "luna", "text": "Doors are just suggestions, human."},
+      {"character": "mochi", "text": "*slides in through the crack* Me too!"},
+      {"character": "owner", "text": "How did you both get in here?"},
+      {"character": "luna", "text": "We're cats. We have our ways."},
+      {"character": "mochi", "text": "Also, the bathroom is cold. I need your warmth."}
+    ]
+  },
+  {
+    "title": "When you're on a call and cat meows loudly",
+    "scene": "owner on phone, cat screaming",
+    "dialogue": [
+      {"character": "owner", "text": "Yes, I'll have the report ready by..."},
+      {"character": "luna", "text": "MEOWWWWW! MEOWWWW!"},
+      {"character": "owner", "text": "Sorry about that, as I was saying..."},
+      {"character": "luna", "text": "MEOWWWWW! MEOWWWW! MEOWWWW!"},
+      {"character": "owner", "text": "Can I call you back?"},
+      {"character": "mochi", "text": "MEOW. *stares at empty food bowl*"},
+      {"character": "owner", "text": "The bowl is literally full."},
+      {"character": "mochi", "text": "MEOW. *pushes bowl off table*"}
+    ]
+  },
+  {
+    "title": "When you're working and cat sits on keyboard",
+    "scene": "owner at laptop, cat walks across keyboard",
+    "dialogue": [
+      {"character": "owner", "text": "Just need to finish this email..."},
+      {"character": "luna", "text": "hjkalsdfhjkalsdfhjk..."},
+      {"character": "owner", "text": "Hey! You just sent gibberish to my boss!"},
+      {"character": "luna", "text": "I was helping. You looked stressed."},
+      {"character": "mochi", "text": "sdfghjkla... *falls asleep on the spacebar*"},
+      {"character": "owner", "text": "Mochi, you're typing spaces now!"},
+      {"character": "luna", "text": "He's making your document more readable."},
+      {"character": "owner", "text": "This is a 47-page document!"},
+      {"character": "mochi", "text": "*snores* zzz..."}
+    ]
+  },
+  {
+    "title": "When cat knocks things off the table",
+    "scene": "cat sitting next to glass on table edge",
+    "dialogue": [
+      {"character": "owner", "text": "Please don't knock that over..."},
+      {"character": "luna", "text": "Knock what over?"},
+      {"character": "owner", "text": "The glass. Right there. Don't."},
+      {"character": "luna", "text": "I would never."},
+      {"character": "owner", "text": "Good."},
+      {"character": "luna", "text": "I'm just going to... *pushes glass with paw*"},
+      {"character": "owner", "text": "NO!"},
+      {"character": "luna", "text": "*glass falls* Physics is fascinating."},
+      {"character": "mochi", "text": "Do it again! Do it again!"}
+    ]
+  },
+  {
+    "title": "When cat brings you a dead mouse",
+    "scene": "cat proudly presents dead mouse to owner",
+    "dialogue": [
+      {"character": "luna", "text": "*drops dead mouse at owner's feet*"},
+      {"character": "owner", "text": "Oh no... is that..."},
+      {"character": "luna", "text": "I brought you a gift!"},
+      {"character": "owner", "text": "Please, I don't want it."},
+      {"character": "luna", "text": "But I caught it just for you!"},
+      {"character": "mochi", "text": "She's been practicing all night."},
+      {"character": "owner", "text": "That's... very thoughtful. But please keep it."},
+      {"character": "luna", "text": "Fine. More for me then. *eats it*"},
+      {"character": "owner", "text": "I'm going to be sick."}
+    ]
+  }
+]

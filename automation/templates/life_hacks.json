@@ -1,0 +1,98 @@
+[
+  {
+    "title": "How to sleep in 10 minutes",
+    "topic": "sleep efficiency",
+    "dialogue": [
+      {"character": "professor", "text": "Good morning, class! Today's lesson: How to sleep in just 10 minutes."},
+      {"character": "luna", "text": "Is that even possible, Professor?"},
+      {"character": "professor", "text": "Of course! Cats sleep 16 hours a day. We are the experts."},
+      {"character": "professor", "text": "Step one: Find the warmest spot in the room."},
+      {"character": "mochi", "text": "*already asleep on a sunbeam*"},
+      {"character": "professor", "text": "Step two: Curl into a tight ball. Reduce surface area."},
+      {"character": "luna", "text": "Like this? *curls up*"},
+      {"character": "professor", "text": "Perfect! Step three: Close your eyes and think of tuna."},
+      {"character": "mochi", "text": "I'm already dreaming of tuna... zzz..."},
+      {"character": "professor", "text": "And that's how you sleep in 10 minutes. Class dismissed!"}
+    ]
+  },
+  {
+    "title": "How to grow your money",
+    "topic": "saving and investing",
+    "dialogue": [
+      {"character": "professor", "text": "Today's lesson: How to grow your money. The cat way."},
+      {"character": "luna", "text": "Do cats even use money?"},
+      {"character": "professor", "text": "We use treats, and treats are currency. Pay attention."},
+      {"character": "professor", "text": "Rule one: Save your treats. Don't eat them all at once."},
+      {"character": "mochi", "text": "*eats all treats*"},
+      {"character": "professor", "text": "Mochi! You just ate your entire savings!"},
+      {"character": "mochi", "text": "I regret nothing."},
+      {"character": "professor", "text": "Rule two: Hoard things. Random objects have value."},
+      {"character": "luna", "text": "Like bottle caps and string?"},
+      {"character": "professor", "text": "Exactly! You're basically running a bank now."}
+    ]
+  },
+  {
+    "title": "How to find a job",
+    "topic": "career advice",
+    "dialogue": [
+      {"character": "professor", "text": "Today's lesson: How to find a job. The cat way."},
+      {"character": "luna", "text": "I already have a job: being adorable."},
+      {"character": "professor", "text": "That's called freelancing. But let's talk formal employment."},
+      {"character": "professor", "text": "Step one: Look available. Sit in a box at the store."},
+      {"character": "mochi", "text": "I sat in a box once. Someone tried to buy me."},
+      {"character": "professor", "text": "See? It works! Step two: Network. Rub against everyone's legs."},
+      {"character": "luna", "text": "What if they don't have legs?"},
+      {"character": "professor", "text": "Then they're not your target employer."},
+      {"character": "professor", "text": "Step three: Demand treats. If they don't pay, leave."},
+      {"character": "mochi", "text": "I demand treats right now."}
+    ]
+  },
+  {
+    "title": "How to wake up early",
+    "topic": "morning routine",
+    "dialogue": [
+      {"character": "professor", "text": "Today's lesson: How to wake up early. Ironic for cats."},
+      {"character": "luna", "text": "I wake up at 5 AM every day!"},
+      {"character": "professor", "text": "Exactly! And what do you do at 5 AM?"},
+      {"character": "luna", "text": "Scream at my owner until they feed me."},
+      {"character": "professor", "text": "Perfect technique. Step one: Set an internal alarm."},
+      {"character": "professor", "text": "Step two: Stare at your owner until they feel your presence."},
+      {"character": "mochi", "text": "What if they don't wake up?"},
+      {"character": "professor", "text": "Step three: Gently tap their face with your paw."},
+      {"character": "mochi", "text": "What if they still don't wake up?"},
+      {"character": "professor", "text": "Step four: Sit on their face. Works every time."}
+    ]
+  },
+  {
+    "title": "How to stay calm under pressure",
+    "topic": "stress management",
+    "dialogue": [
+      {"character": "professor", "text": "Today's lesson: How to stay calm under pressure."},
+      {"character": "luna", "text": "I panic when the vacuum comes out!"},
+      {"character": "professor", "text": "Classic mistake. Step one: Identify the threat."},
+      {"character": "professor", "text": "If it's a vacuum, run under the bed. Strategic retreat."},
+      {"character": "mochi", "text": "What if it's a cucumber?"},
+      {"character": "professor", "text": "That's a code red. Jump three feet in the air."},
+      {"character": "luna", "text": "What about real danger?"},
+      {"character": "professor", "text": "Step two: Look unbothered. Act like you meant to do that."},
+      {"character": "professor", "text": "Step three: Groom yourself. Nothing says calm like licking your paw."},
+      {"character": "mochi", "text": "*knocks over vase* I meant to do that. *starts grooming*"}
+    ]
+  },
+  {
+    "title": "How to make friends",
+    "topic": "social skills",
+    "dialogue": [
+      {"character": "professor", "text": "Today's lesson: How to make friends. Cat edition."},
+      {"character": "luna", "text": "I'm already friends with everyone!"},
+      {"character": "professor", "text": "That's because you're a social butterfly. Not everyone is."},
+      {"character": "professor", "text": "Step one: Slow blink at them. It means I trust you."},
+      {"character": "mochi", "text": "*stares without blinking*"},
+      {"character": "professor", "text": "Mochi, that's called staring. It's creepy."},
+      {"character": "mochi", "text": "I thought I was being friendly!"},
+      {"character": "professor", "text": "Step two: Bring them a gift. A dead mouse works well."},
+      {"character": "luna", "text": "What if they don't like mice?"},
+      {"character": "professor", "text": "Then they're not worth befriending. Next!"}
+    ]
+  }
+]

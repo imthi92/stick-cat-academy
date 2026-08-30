@@ -1,0 +1,59 @@
+name: Daily Stick Cat Academy
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # Daily at 2 PM UTC (7:30 PM IST)
+  workflow_dispatch:
+
+jobs:
+  generate-video:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install FFmpeg and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-liberation
+          fc-cache -f
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Decode YouTube credentials
+        run: |
+          mkdir -p automation
+          echo "${{ secrets.YOUTUBE_TOKEN_BASE64 }}" | base64 -d > automation/youtube_token.pickle
+          echo "${{ secrets.YOUTUBE_CLIENT_SECRET_BASE64 }}" | base64 -d > automation/client_secret.json
+
+      - name: Generate video
+        working-directory: automation
+        run: python generate_video.py
+        env:
+          PYTHONUNBUFFERED: 1
+
+      - name: Upload video artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: stick-cat-${{ github.run_number }}
+          path: |
+            automation/output/episode_*/episode_*.mp4
+            automation/output/episode_*/thumbnail.jpg
+          retention-days: 7
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add automation/processed_episodes.json scripts/*.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Auto: update Stick Cat Academy state (run ${{ github.run_number }})"
+          git push

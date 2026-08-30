@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Why cats knead with their paws",
+    "fact": "Kitten behavior from nursing, shows comfort and contentment",
+    "dialogue": [
+      {"character": "luna", "text": "Professor, why do I keep pressing my paws on everything?"},
+      {"character": "professor", "text": "Ah, excellent question, Luna! That's called kneading."},
+      {"character": "professor", "text": "When you were a kitten, you pressed your mother's belly to get milk."},
+      {"character": "luna", "text": "So I'm doing it because I'm happy?"},
+      {"character": "professor", "text": "Precisely! It's a comfort behavior from kittenhood."},
+      {"character": "mochi", "text": "*kneading the desk* I'm kneading too!"},
+      {"character": "professor", "text": "Mochi, you're kneading your homework. That's not the same thing."},
+      {"character": "mochi", "text": "It feels nice though..."}
+    ]
+  },
+  {
+    "title": "Why cats bring dead mice to owners",
+    "fact": "Cats see owners as incompetent hunters and provide food",
+    "dialogue": [
+      {"character": "luna", "text": "Professor, why do we bring dead mice to humans?"},
+      {"character": "professor", "text": "Excellent question! It's actually quite noble."},
+      {"character": "professor", "text": "Cats think their owners are terrible hunters."},
+      {"character": "luna", "text": "We bring them food because we care?"},
+      {"character": "professor", "text": "Exactly! We're essentially saying you're incompetent but we love you."},
+      {"character": "mochi", "text": "I brought my human a moth once."},
+      {"character": "professor", "text": "Did they appreciate it?"},
+      {"character": "mochi", "text": "They screamed and ran away. Ungrateful."}
+    ]
+  },
+  {
+    "title": "Why cats sit in boxes",
+    "fact": "Boxes provide security and reduce stress",
+    "dialogue": [
+      {"character": "luna", "text": "Professor, why do I love sitting in boxes so much?"},
+      {"character": "professor", "text": "Ah, the age-old question! Boxes provide security."},
+      {"character": "professor", "text": "In the wild, enclosed spaces protect us from predators."},
+      {"character": "luna", "text": "So it's like a safe fortress?"},
+      {"character": "professor", "text": "Precisely! Plus, it reduces stress significantly."},
+      {"character": "mochi", "text": "*stuck in a tiny box* Help..."},
+      {"character": "professor", "text": "Mochi, that box is clearly too small for you."},
+      {"character": "mochi", "text": "But it's MY box now. I must fit."}
+    ]
+  },
+  {
+    "title": "Why cats hate water",
+    "fact": "Evolutionary trait from desert-dwelling ancestors",
+    "dialogue": [
+      {"character": "luna", "text": "Professor, why do we hate water?"},
+      {"character": "professor", "text": "Our ancestors were desert cats, Luna."},
+      {"character": "professor", "text": "They rarely encountered water, so we never evolved to like it."},
+      {"character": "luna", "text": "But tigers love swimming!"},
+      {"character": "professor", "text": "Tigers are the exception. They're basically oversized house cats who don't care."},
+      {"character": "mochi", "text": "*falls in bathtub* HELP HELP HELP"},
+      {"character": "professor", "text": "See? Exhibit A."},
+      {"character": "mochi", "text": "I'm DROWNING! *swimming perfectly fine*"}
+    ]
+  },
+  {
+    "title": "Why cats zoom at 3 AM",
+    "fact": "Crepuscular nature - most active at dawn and dusk",
+    "dialogue": [
+      {"character": "luna", "text": "Professor, why do I get the zoomies at 3 AM?"},
+      {"character": "professor", "text": "Ah! We're crepuscular, meaning most active at dawn and dusk."},
+      {"character": "professor", "text": "3 AM is basically our happy hour."},
+      {"character": "luna", "text": "So it's not just me being crazy?"},
+      {"character": "professor", "text": "It's scientific! Your body thinks it's hunting time."},
+      {"character": "mochi", "text": "*runs into wall at full speed*"},
+      {"character": "professor", "text": "Mochi! Are you okay?"},
+      {"character": "mochi", "text": "*gets up and keeps running* The wall started it!"}
+    ]
+  },
+  {
+    "title": "Why cats stare at walls",
+    "fact": "They can see things we can't - UV light, small movements, insects",
+    "dialogue": [
+      {"character": "luna", "text": "Professor, why do I stare at walls?"},
+      {"character": "professor", "text": "You see things humans can't, Luna."},
+      {"character": "professor", "text": "Cats can see UV light and tiny movements."},
+      {"character": "luna", "text": "So there's something on the wall?"},
+      {"character": "professor", "text": "Probably a gnat or dust particle. Or nothing. Both are fascinating."},
+      {"character": "mochi", "text": "*staring intensely at corner*"},
+      {"character": "luna", "text": "Mochi, what do you see?"},
+      {"character": "mochi", "text": "The void stares back... *slowly turns head*"}
+    ]
+  }
+]
