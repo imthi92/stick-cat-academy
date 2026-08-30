@@ -40,7 +40,7 @@ def create_video_from_frames_and_audio(frames, audio_files, output_path, bg_colo
             "-i", audio["path"],
             "-c:v", "libx264", "-tune", "stillimage",
             "-c:a", "aac", "-b:a", "192k",
-            "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=white,drawtext=text='" + frame["text"][:50] + "':fontsize=28:fontcolor=black:x=(w-text_w)/2:y=h-80",
+            "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=white",
             "-pix_fmt", "yuv420p",
             "-shortest",
             "-t", str(duration + 0.5),

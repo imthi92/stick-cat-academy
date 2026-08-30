@@ -1,0 +1,70 @@
+{
+  "type": "life_hacks",
+  "title": "How to grow your money",
+  "topic": "saving and investing",
+  "lines": [
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Today's lesson: How to grow your money. The cat way."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Do cats even use money?"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "We use treats, and treats are currency. Pay attention."
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Rule one: Save your treats. Don't eat them all at once."
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*eats all treats*"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Mochi! You just ate your entire savings!"
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "I regret nothing."
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Rule two: Hoard things. Random objects have value."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Like bottle caps and string?"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Exactly! You're basically running a bank now."
+    }
+  ],
+  "duration_estimate": 40,
+  "episode_number": 1,
+  "timestamp": "2026-08-30T12:40:58.984349"
+}
