@@ -1,0 +1,64 @@
+{
+  "type": "vs_owner",
+  "title": "When cat brings you a dead mouse",
+  "scene": "cat proudly presents dead mouse to owner",
+  "lines": [
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "*drops dead mouse at owner's feet*"
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Oh no... is that..."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "I brought you a gift!"
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Please, I don't want it."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "But I caught it just for you!"
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "She's been practicing all night."
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "That's... very thoughtful. But please keep it."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Fine. More for me then. *eats it*"
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "I'm going to be sick."
+    }
+  ],
+  "duration_estimate": 36,
+  "episode_number": 1,
+  "timestamp": "2026-08-30T18:00:19.013386"
+}
