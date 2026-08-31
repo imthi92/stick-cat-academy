@@ -63,6 +63,14 @@ def save_processed(data):
 def get_next_episode_number(content_type, processed):
     return len(processed.get(content_type, [])) + 1
 
+def is_flashback_line(text):
+    return "[flashback]" in text.lower() or "flashback" in text.lower()
+
+def clean_flashback_markers(text):
+    text = text.replace("[flashback]", "").replace("[/flashback]", "")
+    text = text.replace("[FLASHBACK]", "").replace("[/FLASHBACK]", "")
+    return text.strip()
+
 def generate_vs_owner_script(template=None):
     if not template:
         templates = load_templates("vs_owner")
@@ -84,11 +92,13 @@ def generate_vs_owner_script(template=None):
     script_lines = []
     for line in template["dialogue"]:
         char = CHARACTERS.get(line["character"], CHARACTERS["luna"])
+        is_fb = is_flashback_line(line["text"])
         script_lines.append({
             "character": line["character"],
             "character_name": char["short"],
             "voice": char["voice"],
-            "text": line["text"]
+            "text": clean_flashback_markers(line["text"]),
+            "is_flashback": is_fb
         })
 
     return {
@@ -108,7 +118,7 @@ def generate_cat_logic_script(template=None):
             "dialogue": [
                 {"character": "luna", "text": "Professor, why do I keep pressing my paws on everything?"},
                 {"character": "professor", "text": "Ah, excellent question, Luna! That's called kneading."},
-                {"character": "professor", "text": "When you were a kitten, you pressed your mother's belly to get milk."},
+                {"character": "professor", "text": "[flashback]When you were a kitten, you pressed your mother's belly to get milk.[/flashback]"},
                 {"character": "luna", "text": "So I'm doing it because... I'm happy?"},
                 {"character": "professor", "text": "Precisely! It's a comfort behavior from kittenhood."},
                 {"character": "mochi", "text": "*kneading the desk* I'm kneading too!"},
@@ -120,11 +130,13 @@ def generate_cat_logic_script(template=None):
     script_lines = []
     for line in template["dialogue"]:
         char = CHARACTERS.get(line["character"], CHARACTERS["luna"])
+        is_fb = is_flashback_line(line["text"])
         script_lines.append({
             "character": line["character"],
             "character_name": char["short"],
             "voice": char["voice"],
-            "text": line["text"]
+            "text": clean_flashback_markers(line["text"]),
+            "is_flashback": is_fb
         })
 
     return {

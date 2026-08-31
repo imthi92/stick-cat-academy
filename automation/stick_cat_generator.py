@@ -41,6 +41,22 @@ STYLES = {
     "title_card": {
         "prompt": "cute minimal stick figure cats in a classroom, Professor Whiskers at front, Luna and Mochi at desks, chalkboard says Academy, simple black lines on white background, cartoon style, logo design, clean vector art",
         "suffix": "Stick Cat Academy logo, minimal style"
+    },
+    "flashback_professor": {
+        "prompt": "beautiful Studio Ghibli anime style, wise old cat professor with glasses in a magical warm glowing library, soft watercolor background, cherry blossoms, golden light, detailed anime illustration, Miyazaki style, pastel colors, dreamy atmosphere",
+        "suffix": "Ghibli style wise cat professor in magical library"
+    },
+    "flashback_luna": {
+        "prompt": "beautiful Studio Ghibli anime style, cute young female cat character with big eyes, sitting in a field of flowers, soft watercolor background, warm sunset light, detailed anime illustration, Miyazaki style, pastel colors, nostalgic atmosphere",
+        "suffix": "Ghibli style young cat in flower field"
+    },
+    "flashback_mochi": {
+        "prompt": "beautiful Studio Ghibli anime style, chubby lazy cat sleeping on a fluffy cloud, dreamy sky background, soft pastel colors, floating stars, detailed anime illustration, Miyazaki style, peaceful atmosphere",
+        "suffix": "Ghibli style sleeping cat on cloud"
+    },
+    "flashback_scene": {
+        "prompt": "beautiful Studio Ghibli anime style, magical forest with glowing fireflies, small cats walking on a path, soft watercolor painting, warm golden light, detailed anime landscape, Miyazaki style, dreamy nostalgic atmosphere",
+        "suffix": "Ghibli style magical forest scene"
     }
 }
 
