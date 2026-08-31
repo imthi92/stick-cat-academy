@@ -1,0 +1,66 @@
+{
+  "type": "vs_owner",
+  "title": "When you're eating and cat stares",
+  "scene": "owner eating at table, cat sitting on table staring",
+  "lines": [
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Just trying to eat my lunch in peace...",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "What are you eating? Is that for me?",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "No, this is my food.",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "But I'm staring at you. That means it's mine now.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "Zzz... wake me when there's tuna...",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "I'm going to knock this plate off the table now.",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Don't you dare!",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Too late. *CLANG*",
+      "is_flashback": false
+    }
+  ],
+  "duration_estimate": 32,
+  "episode_number": 2,
+  "timestamp": "2026-08-31T19:53:53.869868"
+}
