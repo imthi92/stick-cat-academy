@@ -1,0 +1,66 @@
+{
+  "type": "vs_owner",
+  "title": "When you close the door, cat opens it",
+  "scene": "owner closes door, cat pulls it open",
+  "lines": [
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Finally, five minutes of privacy...",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "*opens door* What are you doing in here?",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Close the door!",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Doors are just suggestions, human.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*slides in through the crack* Me too!",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "How did you both get in here?",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "We're cats. We have our ways.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "Also, the bathroom is cold. I need your warmth.",
+      "is_flashback": false
+    }
+  ],
+  "duration_estimate": 32,
+  "episode_number": 3,
+  "timestamp": "2026-09-01T17:44:52.226875"
+}
