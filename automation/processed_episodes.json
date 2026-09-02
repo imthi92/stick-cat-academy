@@ -4,6 +4,8 @@
     2,
     3
   ],
-  "cat_logic": [],
+  "cat_logic": [
+    1
+  ],
   "life_hacks": []
 }

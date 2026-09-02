@@ -1,0 +1,66 @@
+{
+  "type": "cat_logic",
+  "title": "Why cats zoom at 3 AM",
+  "fact": "Crepuscular nature - most active at dawn and dusk",
+  "lines": [
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Professor, why do I get the zoomies at 3 AM?",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Ah! We're crepuscular, meaning most active at dawn and dusk.",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "3 AM is basically our happy hour.",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "So it's not just me being crazy?",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "It's scientific! Your body thinks it's hunting time.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*runs into wall at full speed*",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Mochi! Are you okay?",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*gets up and keeps running* The wall started it!",
+      "is_flashback": false
+    }
+  ],
+  "duration_estimate": 32,
+  "episode_number": 1,
+  "timestamp": "2026-09-02T17:48:05.419204"
+}
