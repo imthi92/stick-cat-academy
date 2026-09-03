@@ -1,0 +1,73 @@
+{
+  "type": "vs_owner",
+  "title": "When you're working and cat sits on keyboard",
+  "scene": "owner at laptop, cat walks across keyboard",
+  "lines": [
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Just need to finish this email...",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "hjkalsdfhjkalsdfhjk...",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Hey! You just sent gibberish to my boss!",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "I was helping. You looked stressed.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "sdfghjkla... *falls asleep on the spacebar*",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "Mochi, you're typing spaces now!",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "He's making your document more readable.",
+      "is_flashback": false
+    },
+    {
+      "character": "owner",
+      "character_name": "Owner",
+      "voice": "en-US-AriaNeural",
+      "text": "This is a 47-page document!",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*snores* zzz...",
+      "is_flashback": false
+    }
+  ],
+  "duration_estimate": 36,
+  "episode_number": 4,
+  "timestamp": "2026-09-03T17:43:41.260547"
+}
