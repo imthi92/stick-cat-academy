@@ -1,0 +1,66 @@
+{
+  "type": "cat_logic",
+  "title": "Why cats knead with their paws",
+  "fact": "Kitten behavior from nursing, shows comfort and contentment",
+  "lines": [
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Professor, why do I keep pressing my paws on everything?",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Ah, excellent question, Luna! That's called kneading.",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "When you were a kitten, you pressed your mother's belly to get milk.",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "So I'm doing it because I'm happy?",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Precisely! It's a comfort behavior from kittenhood.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*kneading the desk* I'm kneading too!",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Mochi, you're kneading your homework. That's not the same thing.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "It feels nice though...",
+      "is_flashback": false
+    }
+  ],
+  "duration_estimate": 32,
+  "episode_number": 2,
+  "timestamp": "2026-09-04T17:30:57.729107"
+}
