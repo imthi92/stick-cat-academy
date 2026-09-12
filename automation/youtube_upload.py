@@ -46,8 +46,12 @@ def get_youtube_service():
 
     credentials = None
     if os.path.exists(TOKEN_FILE):
-        with open(TOKEN_FILE, 'rb') as token:
-            credentials = pickle.load(token)
+        try:
+            with open(TOKEN_FILE, 'rb') as token:
+                credentials = pickle.load(token)
+        except (EOFError, pickle.UnpicklingError) as e:
+            print(f"WARNING: Token file corrupted ({e}), will re-authenticate")
+            credentials = None
 
     if not credentials or not credentials.valid:
         if credentials and credentials.expired and credentials.refresh_token:
