@@ -1,0 +1,66 @@
+{
+  "type": "cat_logic",
+  "title": "Why cats bring dead mice to owners",
+  "fact": "Cats see owners as incompetent hunters and provide food",
+  "lines": [
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "Professor, why do we bring dead mice to humans?",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Excellent question! It's actually quite noble.",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Cats think their owners are terrible hunters.",
+      "is_flashback": false
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "We bring them food because we care?",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Exactly! We're essentially saying you're incompetent but we love you.",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "I brought my human a moth once.",
+      "is_flashback": false
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Did they appreciate it?",
+      "is_flashback": false
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "They screamed and ran away. Ungrateful.",
+      "is_flashback": false
+    }
+  ],
+  "duration_estimate": 32,
+  "episode_number": 3,
+  "timestamp": "2026-09-24T18:06:54.439080"
+}
