@@ -49,22 +49,47 @@ def get_youtube_service():
         try:
             with open(TOKEN_FILE, 'rb') as token:
                 credentials = pickle.load(token)
-        except (EOFError, pickle.UnpicklingError) as e:
+        except (EOFError, pickle.UnpicklingError, ModuleNotFoundError,
+                AttributeError, OSError, ValueError) as e:
             print(f"WARNING: Token file corrupted ({e}), will re-authenticate")
             credentials = None
 
+    # The pickle holds a google credentials OBJECT. If something else was
+    # stored here, say so precisely instead of crashing on .valid later.
+    if credentials is not None and not hasattr(credentials, 'valid'):
+        print(f"ERROR: {os.path.basename(TOKEN_FILE)} is not OAuth credentials "
+              f"(contains {type(credentials).__name__}).")
+        print("Fix: set YOUTUBE_TOKEN_BASE64 from cat-podcast-voice-gen's "
+              "automation/github_token_base64.txt")
+        return None
+
     if not credentials or not credentials.valid:
         if credentials and credentials.expired and credentials.refresh_token:
-            credentials.refresh(Request())
+            try:
+                credentials.refresh(Request())
+            except Exception as e:
+                print(f"ERROR: Could not refresh the YouTube token ({e}).")
+                print("The refresh token was revoked or expired - re-run "
+                      "authenticate_youtube.py, then update YOUTUBE_TOKEN_BASE64.")
+                return None
         else:
             if not os.path.exists(CLIENT_SECRETS_FILE):
                 print(f"ERROR: {CLIENT_SECRETS_FILE} not found!")
                 return None
+            # Never open an interactive browser inside CI: nobody can click the
+            # OAuth consent screen, so the job would hang until it is killed.
+            if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
+                print("ERROR: YouTube token is missing/expired and no interactive "
+                      "browser is available in CI.")
+                print("Fix: refresh locally with authenticate_youtube.py, then "
+                      "update the YOUTUBE_TOKEN_BASE64 secret.")
+                return None
             flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
             credentials = flow.run_local_server(port=0)
 
-        with open(TOKEN_FILE, 'wb') as token:
-            pickle.dump(credentials, token)
+        if credentials:
+            with open(TOKEN_FILE, 'wb') as token:
+                pickle.dump(credentials, token)
 
     return build('youtube', 'v3', credentials=credentials)
 

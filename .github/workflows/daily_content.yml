@@ -30,10 +30,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Decode YouTube credentials
-        run: |
-          mkdir -p automation
-          echo "${{ secrets.YOUTUBE_TOKEN_BASE64 }}" | base64 -d > automation/youtube_token.pickle
-          echo "${{ secrets.YOUTUBE_CLIENT_SECRET_BASE64 }}" | base64 -d > automation/client_secret.json
+        env:
+          YT_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_BASE64 }}
+          YT_CLIENT_B64: ${{ secrets.YOUTUBE_CLIENT_SECRET_BASE64 }}
+        # Resolves base64 (or a raw value), validates that the result is real
+        # OAuth material, and fails with an exact ::error:: annotation. Falls
+        # back to the committed/public credential file when a secret is
+        # missing - the old 'base64 -d | echo' path silently wrote EMPTY files
+        # here, which then crashed as "Token file corrupted (Ran out of input)".
+        run: python automation/prepare_credentials.py
 
       - name: Generate video
         working-directory: automation
