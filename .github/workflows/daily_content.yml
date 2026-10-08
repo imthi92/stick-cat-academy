@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 14 * * 4'  # Every Thursday at 2 PM UTC (7:30 PM IST)
   workflow_dispatch:
+  # Remote trigger hook: POST /repos/.../dispatches {"event_type":"manual-run"}
+  repository_dispatch:
+    types: [manual-run]
 
 jobs:
   generate-video:
