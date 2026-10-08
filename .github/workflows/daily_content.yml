@@ -45,7 +45,7 @@ jobs:
 
       - name: Generate video
         working-directory: automation
-        run: python generate_video.py
+        run: python generate_video.py --upload
         env:
           PYTHONUNBUFFERED: 1
 

@@ -142,6 +142,16 @@ Subscribe for daily stick cat content!
     return metadata
 
 if __name__ == "__main__":
-    content_type = sys.argv[1] if len(sys.argv) > 1 else None
+    # Skip flags so 'generate_video.py --upload' does not treat --upload as
+    # a content type.
+    content_type = next((a for a in sys.argv[1:] if not a.startswith("--")), None)
     do_upload = "--upload" in sys.argv
-    generate_video(content_type, do_upload)
+    result = generate_video(content_type, do_upload)
+
+    # Exit non-zero when an upload was requested but did not succeed, so the
+    # workflow shows red instead of a green run that published nothing.
+    if do_upload:
+        upload_info = result.get("upload") if isinstance(result, dict) else None
+        if not (isinstance(upload_info, dict) and upload_info.get("success")):
+            print("ERROR: video was generated but NOT uploaded to YouTube - failing this run.")
+            sys.exit(1)
