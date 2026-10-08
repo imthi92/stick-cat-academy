@@ -1,0 +1,70 @@
+{
+  "type": "life_hacks",
+  "title": "How to make friends",
+  "topic": "social skills",
+  "lines": [
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Today's lesson: How to make friends. Cat edition."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "I'm already friends with everyone!"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "That's because you're a social butterfly. Not everyone is."
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Step one: Slow blink at them. It means I trust you."
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "*stares without blinking*"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Mochi, that's called staring. It's creepy."
+    },
+    {
+      "character": "mochi",
+      "character_name": "Mochi",
+      "voice": "en-US-ChristopherNeural",
+      "text": "I thought I was being friendly!"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Step two: Bring them a gift. A dead mouse works well."
+    },
+    {
+      "character": "luna",
+      "character_name": "Luna",
+      "voice": "en-US-JennyNeural",
+      "text": "What if they don't like mice?"
+    },
+    {
+      "character": "professor",
+      "character_name": "Professor",
+      "voice": "en-US-GuyNeural",
+      "text": "Then they're not worth befriending. Next!"
+    }
+  ],
+  "duration_estimate": 40,
+  "episode_number": 2,
+  "timestamp": "2026-10-08T18:43:37.821412"
+}
